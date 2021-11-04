@@ -1,0 +1,15 @@
+1st Step : create a go module with name.
+
+2nd Step : Install Gorilla Websocket/Sync dependencies.
+
+3rd Step : make two files with the extension go, the first file is main.go in project path and the second is socketReader.go in the socket folder.
+
+4th Step : write the go codes in go files.
+
+5th Step : create a “views” folder and put the html and javascript files are in that folder.
+
+6th Step : write the html & javaScrip codes in the files.
+
+7th Step : compile & run main.go file in your IDE.
+
+8th Step => so when you access (http://localhost:8080) the file will run in the browser.
