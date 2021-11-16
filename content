@@ -1,0 +1,16 @@
+What is websockets and socket.io with golang
+
+WebSockets are a type of communication protocol that uses full-duplex communication channels over a single TCP connection.
+
+In comparison to alternatives that use half-duplex communication, such as HTTP polling, full-duplex communication allows both the server and the client to transmit and receive data simultaneously without being interrupted, decreasing overhead.
+
+WebSocket connections are requested by browsers and are responded to by servers, after which a connection is established.This is commonly called a handshake.
+
+How to make a WebSocket application in Go To make a simple WebSocket echo server using the net/http library, you'll need to do the following:
+1) Initiate a handshake
+ 2) Receive data frames from the client 
+3) Send data frames to the client
+ 4) Close the handshake
+Although using WebSockets in Go is simple and straightforward, this combination can have a significant impact on the performance of your application.
+
+We have a few distinct alternatives for implementing websockets in Go.Socket-io is one of the most widely used libraries for frontend socket connection, we'll be using the Golang version to make integration easier.
